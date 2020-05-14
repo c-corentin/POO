@@ -75,7 +75,7 @@ define('COUNTRY','country');
             else if(strstr($this->PlateNumber,'FR')){
                 return array(COUNTRY=>"France");
             }else{
-                return array(COUNTRY=>"Inconnu");
+                return array(COUNTRY=>"Unknown");
             }
         }
 
